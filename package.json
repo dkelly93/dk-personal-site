@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "dk-personal-site",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "David Kelly's personal blog with styled components, dark mode, and Netlify CMS.",
   "version": "0.1.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "David Kelly <davidkelly93@outlook.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -43,7 +43,7 @@
   "devDependencies": {
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/dkelly93/dk-personal-site",
   "keywords": [
     "gatsby"
   ],
@@ -51,7 +51,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/dkelly93/dk-personal-site.git"
   },
   "scripts": {
     "build": "gatsby build",

@@ -5,8 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's personal blog starter
+  David Kelly's personal blog
 </h1>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9389cba6-c7e1-4fd2-880d-063070df9d4b/deploy-status)](https://app.netlify.com/sites/davidkelly/deploys)
 
 <img alt="screesnhot" src="./screenshot.png">
 
