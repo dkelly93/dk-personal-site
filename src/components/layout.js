@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Button from "../components/button"
+import Sidebar from '../components/sidebar'
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -18,6 +20,7 @@ class Layout extends React.Component {
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            color: "black"
           }}
         >
           <Link
@@ -36,7 +39,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: `Raleway', Arial, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -54,8 +57,9 @@ class Layout extends React.Component {
       )
     }
     return (
-      <Wrapper>
-        <div
+      <Wrapper id="app">
+        <Sidebar right pageWrapId={"page"} outerContainerId={"app"} />
+        <div id="page"
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
@@ -78,6 +82,9 @@ class Layout extends React.Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
+  background-color: #b4bad2;
+  color: white;
+  font-family: 'Raleway', Arial, sans-serif;
 `
 
 const Footer = styled.footer`
